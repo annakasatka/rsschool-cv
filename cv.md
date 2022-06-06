@@ -1,4 +1,5 @@
 ### Front-end Developer
+----
 # Anna Kasatka
 ____
 ## Contacts
@@ -46,4 +47,16 @@ ___
 * Ability to work in a team
 * Stress tolerance
 * Adapt to innovation
+----
+## Code Example
+```
+const numbers =[51, 18, 13, 24, 7, 85, 90];
+let biggestNumber = numbers[0];
 
+for ( const number of numbers){
+if(number > biggestNumber){
+    biggestNumber= number;
+}
+}
+console.log(`biggestNumber:` , biggestNumber);
+```
