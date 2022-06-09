@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/favicon.ico"> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="img/favicon.ico"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
 <!--Main-->
@@ -23,34 +22,13 @@
        <p class="about3"> I am a communications engineer. I want to be a  front-end developer.
         I have a mathematical mind. I am learning to be better than yesterday. I know that this is my future work. I can become a worthy developer.</p>
     </div>
-         <!--Projects-->
-         <!-- <div class="projects">
-             <h3 class="title">Projects</h3>
-             <ol class="projects-list">
-                 <li class="project-item"> 
-                     <!--выделяем квадратные скобки жирным отдельно от теста-->
-                     <!-- <span class="project">
-                     <a href="http://aordets@gmail.com" class="project-link">http://aordets@gmail.com</a>.........<span class="bracket">[</span> email <span class="bracket">]</span>
-                 </span>
-                </li>
-                 <li class="project-item">
-                    <span class="project">
-                     <a href="https://www.instagram.com/aordets/"class="project-link">instagram:aordets</a>............................<span class="bracket">[</span> instagram <span class="bracket">]</span>
-                    </span>
-                </li>
-                 <li class="project-item">
-                    <span class="project">
-                     <a href="https://ru-ru.facebook.com/anya.ordets "class="project-link">Facebook:AOrdets</a>...........................<span class="bracket">[</span> facebook <span class="bracket">]</span>
-                    </span>
-                </li>
-             </ol>
-         </div> --> 
          <!--Work-->
          <div class="Work">
-             <h3>Work Experience</h3>
+             <h3><span class="organisation">Work Experience</span></h3>
+             <hr>
              <!--Company 1-->
              <div>
-                 <h4 class="position">Communications engineer <span class="organisation">Ukrtelecom</span> </h4>
+                 <h4 class="position">Communications engineer Ukrtelecom</h4>
                  <p class="period"> June 2013 - October 2017<span class="line" > |</span> Volnovakha </p>
                  <ul class="work-list">
                      <li class="project-item"> <span class="project">Communication settings</span></li>
@@ -62,35 +40,55 @@
              </div>
              <!--Company 2-->
              <div>
-                 <h4 class="position">Nail Master <span class="organisation">Salon</span> </h4>
+                 <h4 class="position">Nail Master</h4>
                  <p class="period"> October 2017 - up to now <span class="line" > |</span> Dnipro </p>
                  <ul class="work-list">
                      <li class="project-item"><span class="project">Hardware manicure</span></li>
                      <li class="project-item"><span class="project">Gel nails</span></li>
                      <li class="project-item"><span class="project">Gel polish coating</span></li>
                  </ul>
-
-             </div>
-             <!--Company 3-->
-             <div>
-                 <h4 class="position">Student remote <span class="organisation">Dnipro</span> </h4>
-                <p class="period"> February 2022 - up to now<span class="line" > |</span> Ukraine</p>
+         </div>
+        <!--Courses 3-->
+        <div>
+             <h3><span class="organisation">Courses</span></h3>
+             <hr>
+            <div>
                 <ul class="work-list">
                     <li class="project-item"><span class="project">RS School - Git, Markdown</span></li>
-                    <li class="project-item"><span class="project">ITVDN - HTML, CSS</span></li>
+                    <li class="project-item"><span class="project">ITVDN, GoIT - HTML, CSS</span></li>
                     <li class="project-item"><span class="project">Udemy - JS basic</span></li>
                 </ul>
-
-
-             </div>
+            </div>
          </div>
+        
         <!--Educatoin-->  
-        <div class="education">
-            <h3>Education</h3>
-            <h4><span class="organisation">Donetsk National Technical University</span></h4>
-            <h4>Automation and telecommunications</h4>
+        <div>
+            <h3><span class="organisation">Education</span></h3>
+            <hr>
+            <h4>Donetsk National Technical University</h4>
+            <p>Automation and telecommunications</p>
             <p class="period">  September 2008 - June 2013 <span class="line" > |</span>  Country </p>
-        </div>   
+        </div>
+    </div>   
+
+      <!--Code-->  
+      <div>
+        <h3><span class="organisation">Code</span></h3>
+        <hr>
+<pre>
+    <code>
+        "const numbers =[51, 18, 13, 24, 7, 85, 90];
+        let biggestNumber = numbers[0];
+        
+        for ( const number of numbers){
+        if(number > biggestNumber){
+            biggestNumber= number;
+        }
+        }
+        console.log(`biggestNumber:` , biggestNumber);"
+    </code>
+</pre>
+    </div>
             
        </div>
         
@@ -137,11 +135,11 @@
                 </div>
            </aside>
 
-           <footer>
-               <img src="https://rollingscopes.com/hall-of-fame.html" alt="RS_School_img">
-           </footer>
- 
-
 </div>
+        
+<footer>
+               <img src="https://rollingscopes.com/hall-of-fame.html" alt="RS_School_img">
+
+</footer>
 </body>
 </html>

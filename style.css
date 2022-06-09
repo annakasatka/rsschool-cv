@@ -1,10 +1,16 @@
+
+*{
+    box-sizing: border-box;
+}
 body{
-    font-family: 'Montserrat', sans-serif;
-     background-color: #E5E5E5;}
-.main{
+     font-family: 'Montserrat', sans-serif;
+     background-color: #E5E5E5;
+    }
+     
+.main{  
     display:flex ;    
     flex-direction: row-reverse;
-    width:1200px;
+    width:1000px;
     margin: 0 auto;}
 .maincontent{
     background-color: #FFFFFF;
@@ -34,11 +40,7 @@ body{
         line-height: 24px;
         color: #595959;
          width: 400px;  /*  ширина текста */ }
-.projects, .education{ 
-    margin-bottom: 50px;}
-    /* или margin: 100px 90px 300px 60px; 
-       или margin: 100рх - будет со всех сторон одинаковые 
-       или margin: 100px (справа и слева)90px(сверху и снизу)*/ 
+
 .title{
     font-family: 'Montserrat';
     font-style: normal;
@@ -108,6 +110,11 @@ margin-left: 5px;}
     color: #595959;
     margin-top: 10px;
     margin-bottom:16px ;}
+    pre {
+        background-color: #f5f5f5;
+
+    }
+  
  /* education styles */ 
  .sidebar{
      background-color:#1E2939 ;
@@ -151,3 +158,14 @@ line-height: 24px;}
      color:#FFFFFF;}
  .techskill-item{
      color: #FB6D3A;}
+footer{
+    background-color: #FB6D3A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #ffffff;
+
+    
+}
