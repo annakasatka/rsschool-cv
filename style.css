@@ -1,16 +1,11 @@
-
-*{
-    box-sizing: border-box;
-}
 body{
-     font-family: 'Montserrat', sans-serif;
-     background-color: #E5E5E5;
-    }
-     
-.main{  
+    font-family: 'Montserrat', sans-serif;
+     background-color: #E5E5E5; 
+     width:1200px;}
+.main{
     display:flex ;    
     flex-direction: row-reverse;
-    width:1000px;
+   justify-self: left;
     margin: 0 auto;}
 .maincontent{
     background-color: #FFFFFF;
@@ -110,11 +105,6 @@ margin-left: 5px;}
     color: #595959;
     margin-top: 10px;
     margin-bottom:16px ;}
-    pre {
-        background-color: #f5f5f5;
-
-    }
-  
  /* education styles */ 
  .sidebar{
      background-color:#1E2939 ;
@@ -158,14 +148,6 @@ line-height: 24px;}
      color:#FFFFFF;}
  .techskill-item{
      color: #FB6D3A;}
-footer{
-    background-color: #FB6D3A;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    font-size: 0.8rem;
-    color: #ffffff;
 
-    
-}
+ footer{background-color: #FB6D3A;
+     }
