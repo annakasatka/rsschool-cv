@@ -1,0 +1,153 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+     background-color: #E5E5E5;}
+.main{
+    display:flex ;    
+    flex-direction: row-reverse;
+    width:1200px;
+    margin: 0 auto;}
+.maincontent{
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding:105px 90px;}
+.about{
+    margin-bottom: 40px;}
+    .about1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 20px;}
+    .about2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        margin-bottom: 25px;}
+    .about3{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+         width: 400px;  /*  ширина текста */ }
+.projects, .education{ 
+    margin-bottom: 50px;}
+    /* или margin: 100px 90px 300px 60px; 
+       или margin: 100рх - будет со всех сторон одинаковые 
+       или margin: 100px (справа и слева)90px(сверху и снизу)*/ 
+.title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    font: size 45px;
+    margin-bottom: 10px;}
+.projects-list{ /* скидываем стандартные отступы */
+        padding: 0;
+        margin-left: 15px;}
+.project-item, .bracket{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #000000;}
+.project, .project-link {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;}
+.project-link{
+margin-left: 5px;}
+ .Work{ 
+  margin-bottom: 45px;}
+ .position{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;}
+ .organisation{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;}
+ .period{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;}
+ .line{
+     color: #000000;
+     font-family: normal;
+     font-style: normal;
+     font-size: 12px;
+     line-height: 15px;}
+ .work-list{
+    padding: 0;
+    margin-left: 15px;
+     font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-top: 10px;
+    margin-bottom:16px ;}
+ /* education styles */ 
+ .sidebar{
+     background-color:#1E2939 ;
+     padding-top: 40px;
+     width: 370px;}
+ .photo { width:370px;
+    margin-bottom: 51px; }
+ .contacts, .techskills, .softskills{
+     margin-left: 40px;}
+.techskills{
+    margin-top: 50px; }
+.softskills{
+    margin-top: 44px;}
+ .Sidebar-title{
+     margin-bottom: 10px;
+     color: #FFFFFF;
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 22px;
+     line-height: 27px;}
+ .contacttype{
+margin-right: 5px;
+color:#FFFFFF;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;}
+ .contactlink, .techlist, .techskill-item, .softlist{
+color:rgb(205, 199, 199) ;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;}
+ .techlist, .softlist{
+     padding: 0;
+     margin-left: 15px;}
+ .techskill-text{
+     color:#FFFFFF;}
+ .techskill-item{
+     color: #FB6D3A;}
