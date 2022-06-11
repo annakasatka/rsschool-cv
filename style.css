@@ -1,0 +1,116 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+     background-color: #E5E5E5; 
+     margin: 0; padding: 0;
+     display: flex;
+     max-width: 1440px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.main{
+    display:flex ;    
+    flex-direction: row-reverse;   
+}
+.maincontent{
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding:105px 90px;}
+.about{
+    margin-bottom: 40px;}
+    .about1{
+        font-size: 16px;
+        line-height: 17px;
+       }
+    .about2{
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+    .about3{
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+        width: 400px;  /*  ширина текста */ }
+
+ .project-link {
+     margin-left: 5px;
+     font-size: 14px;
+     line-height: 24px;
+     color: #595959;
+    }
+ .position{
+     margin-bottom: 10px;}
+ .section, 
+ .Sidebar-title{
+     color: #FB6D3A;}
+ .period{
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;}
+ .line{
+     color: #000000;
+     font-family: normal;
+     font-style: normal;
+     font-size: 12px;
+     line-height: 15px;}
+ .work-list{
+     padding: 0;
+     margin-left: 15px;
+     line-height: 24px;
+     font-size: 14px;
+     color: #595959;
+    }
+.ed-list{
+        line-height: 24px;
+        font-size: 14px;
+        color: #595959;
+       }
+.codes{
+     margin-left: -60px;
+}
+ /* sidebar styles */ 
+.sidebar{
+     background-color:#1E2939 ;
+     padding-top: 40px;
+     width: 370px;
+    }
+.photo { width:370px;
+     margin-bottom: 51px;
+    }
+.contacts, .techskills, .softskills{
+     margin-left: 40px;
+    }
+.techskills, .softskills{
+     margin-top: 50px; 
+    }
+
+.contacttype{
+     margin-right: 5px;
+     color:#FFFFFF;
+     font-weight: 700;
+    }
+.contactlink, .techlist, .techskill-item, .softlist{
+     color:rgb(205, 199, 199) ;
+     font-size: 14px;
+     line-height: 24px;
+    }
+.techlist, .softlist{
+     padding: 0;
+     margin-left: 15px;
+    }
+.techskill-text{
+     color:#FFFFFF;
+    }
+
+footer{
+    background-color: #FB6D3A;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .logo{
+        width: 100px;
+    }
